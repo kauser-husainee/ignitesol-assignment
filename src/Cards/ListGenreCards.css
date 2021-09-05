@@ -1,0 +1,44 @@
+.ListGenreCards-page {
+  background-color: #f8f7ff;
+}
+
+.genre-page-container {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 641px) {
+  .genre-page-container {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-bottom: 90px;
+  }
+}
+
+.header {
+  background-image: url("../assets/icons/Pattern.svg");
+  padding-top: 60px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.header > h1 {
+  margin-top: 0;
+  font-size: 48px;
+  color: #5e56e7;
+}
+
+.header > p {
+  font-size: 16px;
+}
+
+.list-genre-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  margin-bottom: 20px;
+}

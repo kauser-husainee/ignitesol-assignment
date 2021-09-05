@@ -1,0 +1,42 @@
+.book-container {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.book-container-img {
+  width: 114px;
+  height: 162px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px 0 rgba(211, 209, 238, 0.5);
+  cursor: pointer;
+}
+
+.book-container > p {
+  text-align: left;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 114px;
+  padding-left: 20px;
+  font-size: 12px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  cursor: pointer;
+}
+
+@media (min-width: 641px) {
+  .book-container {
+    width: 16.6%;
+  }
+}
+
+.title {
+  font-weight: bold;
+}
+
+.author {
+  color: "cecece";
+}
